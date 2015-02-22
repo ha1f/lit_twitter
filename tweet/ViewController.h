@@ -7,8 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Accounts/Accounts.h>
+#import <Social/Social.h>
 
 @interface ViewController : UIViewController
+
+
+{
+    NSArray *array;
+    IBOutlet UITableView *timelineview;
+    
+    
+    
+}
+
+- (IBAction)tweetbutton;
+- (void)twittertl;
 
 
 @end

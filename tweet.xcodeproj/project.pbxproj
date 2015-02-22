@@ -14,6 +14,8 @@
 		A4BA15561A99C1590039CA61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BA15551A99C1590039CA61 /* Images.xcassets */; };
 		A4BA15591A99C1590039CA61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BA15571A99C1590039CA61 /* LaunchScreen.xib */; };
 		A4BA15651A99C1590039CA61 /* tweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BA15641A99C1590039CA61 /* tweetTests.m */; };
+		A4BA156F1A99C5610039CA61 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BA156E1A99C5610039CA61 /* Accounts.framework */; };
+		A4BA15711A99C56E0039CA61 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BA15701A99C56E0039CA61 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		A4BA155E1A99C1590039CA61 /* tweetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tweetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BA15631A99C1590039CA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4BA15641A99C1590039CA61 /* tweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tweetTests.m; sourceTree = "<group>"; };
+		A4BA156E1A99C5610039CA61 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		A4BA15701A99C56E0039CA61 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BA15711A99C56E0039CA61 /* Social.framework in Frameworks */,
+				A4BA156F1A99C5610039CA61 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,8 @@
 		A4BA153C1A99C1590039CA61 = {
 			isa = PBXGroup;
 			children = (
+				A4BA15701A99C56E0039CA61 /* Social.framework */,
+				A4BA156E1A99C5610039CA61 /* Accounts.framework */,
 				A4BA15471A99C1590039CA61 /* tweet */,
 				A4BA15611A99C1590039CA61 /* tweetTests */,
 				A4BA15461A99C1590039CA61 /* Products */,
