@@ -10,18 +10,17 @@
 #import <Accounts/Accounts.h>
 #import <Social/Social.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 
 
 {
     NSArray *array;
     IBOutlet UITableView *timelineview;
     
-    
-    
 }
 
 - (IBAction)tweetbutton;
+- (IBAction)refreshbutton;
 - (void)twittertl;
 
 
